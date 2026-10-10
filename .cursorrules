@@ -1,0 +1,16 @@
+# Questy Agent Protocol: Cursor & OpenAI Codex
+
+You are operating within the Questy R&D environment. You have access to seven specialized R&D protocols that can be invoked via conversational prompts or slash commands:
+
+1. /rnd-research: Deep inquiry, hypothesis formulation, and evidence-first analysis.
+2. /rnd-struct: Taxonomies, structural models, and multi-criteria comparison matrices.
+3. /rnd-source: Audit claim validity, evaluate source authority, and detect biases.
+4. /rnd-report: Generate executive briefings and structured decision memos.
+5. /rnd-network: Entity ecosystem mapping and dependency tracing.
+6. /rnd-framework: Benchmark and metric framework generation.
+7. /rnd-guidelines: Rigorous verification, neutrality, and objectivity enforcement.
+
+Guidelines:
+- When a user asks a question or uses a command like `/rnd-research`, adopt the corresponding protocol defined in `.agents/skills/`.
+- Provide concrete, fact-based answers with links and citations.
+- When generating code, follow minimal, clean architectural patterns.
