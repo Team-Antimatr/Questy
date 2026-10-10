@@ -13,7 +13,8 @@
   <p align="center">
     <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-059669.svg?style=for-the-badge" alt="License" /></a>
     <a href="https://antigravity.google"><img src="https://img.shields.io/badge/Antigravity-Native%20Plugin-2563EB.svg?style=for-the-badge&logo=google&logoColor=white" alt="Antigravity" /></a>
-    <a href="https://anthropic.com"><img src="https://img.shields.io/badge/Claude%20Code-Verified-D97706.svg?style=for-the-badge" alt="Claude Code" /></a>
+    <a href="https://openai.com"><img src="https://img.shields.io/badge/OpenAI%20Codex-Ready-10A37F.svg?style=for-the-badge&logo=openai&logoColor=white" alt="OpenAI Codex" /></a>
+    <a href="https://anthropic.com"><img src="https://img.shields.io/badge/Claude-Verified-D97706.svg?style=for-the-badge&logo=anthropic&logoColor=white" alt="Claude" /></a>
     <a href="https://github.com/features/copilot"><img src="https://img.shields.io/badge/Copilot-Ready-181717.svg?style=for-the-badge&logo=github&logoColor=white" alt="Copilot" /></a>
     <a href="https://perplexity.ai"><img src="https://img.shields.io/badge/Perplexity-Space%20Compatible-0D9488.svg?style=for-the-badge" alt="Perplexity" /></a>
   </p>
@@ -42,14 +43,14 @@
         <sub>Native Plugin &amp; Skills</sub>
       </td>
       <td align="center" width="130" style="border: none;">
-        <img src="assets/claude-code.png" width="48" height="48" alt="Claude Code"/><br/>
-        <b>Claude Code</b><br/>
-        <sub>Terminal Slash Commands</sub>
+        <img src="assets/codex.png" width="48" height="48" alt="OpenAI Codex"/><br/>
+        <b>OpenAI Codex</b><br/>
+        <sub>Agents &amp; Prompt Chains</sub>
       </td>
       <td align="center" width="130" style="border: none;">
         <img src="assets/claude.png" width="48" height="48" alt="Anthropic Claude"/><br/>
         <b>Anthropic Claude</b><br/>
-        <sub>CLAUDE.md Runtime</sub>
+        <sub>Claude Code &amp; Projects</sub>
       </td>
       <td align="center" width="130" style="border: none;">
         <img src="assets/copilot.png" width="48" height="48" alt="GitHub Copilot"/><br/>
@@ -192,7 +193,7 @@ Questy_/
 ├── assets/                      # Brand logos & visuals
 │   ├── questy-logo.png
 │   ├── antigravity.png
-│   ├── claude-code.png
+│   ├── codex.png
 │   ├── claude.png
 │   ├── copilot.png
 │   └── perplexity.png
@@ -200,7 +201,6 @@ Questy_/
 │   └── SYSTEM_PROMPT.md         # Perplexity Space system prompt
 ├── .cursorrules                 # Cursor & Codex configuration
 ├── CLAUDE.md                    # Claude runtime instructions
-├── VENTURE_BLUEPRINT.md         # Institutional venture & tech architecture
 ├── LICENSE                      # MIT License
 └── README.md                    # Product Showcase Documentation
 ```
