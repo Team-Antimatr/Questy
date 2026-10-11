@@ -1,10 +1,9 @@
 <div align="center">
 
-  <img src="assets/questy-logo.png" alt="Questy Logo" width="130" style="margin-bottom: 14px;" />
-
-  # QUESTY
+  <img src="assets/questy-logo.png" alt="Questy Logo" width="120" style="margin-bottom: 12px;" /><br/>
+  <img src="assets/questy-text.svg" alt="QUESTY" width="280" style="margin-bottom: 6px;" />
   
-  ### The Autonomous R&D and Strategic Intelligence Engine for AI Agents
+  <h3>The Autonomous R&D and Strategic Intelligence Engine for AI Agents</h3>
 
   <p align="center">
     <b>Equipping Google Antigravity, Anthropic Claude, GitHub Copilot, OpenAI Codex, and Perplexity with institutional-grade research capabilities.</b>
