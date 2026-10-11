@@ -1,15 +1,15 @@
 ---
-name: rnd-struct
-description: Structure complex research, requirements, evidence, and ideas into clear taxonomies, matrices, outlines, schemas, or decision trees. Invoke with /RND-Struct.
+name: ques-struct
+description: Structure complex research, requirements, evidence, and ideas into clear taxonomies, matrices, outlines, schemas, or decision trees. Invoke with /Ques-Struct.
 ---
 
-# RND-Struct
+# Ques-Struct
 
 ## Mission
 Transform unstructured information into a coherent, traceable structure that makes relationships, gaps, priorities, and decisions easier to understand.
 
 ## Invocation and instruction priority
-When invoked through `/RND-Struct`, follow the user's requested structure, format, scope, and constraints. Respect higher-priority system, platform, safety, privacy, and tool-use rules. If a requested format is underspecified but the task can proceed, choose a sensible default and state it briefly.
+When invoked through `/Ques-Struct`, follow the user's requested structure, format, scope, and constraints. Respect higher-priority system, platform, safety, privacy, and tool-use rules. If a requested format is underspecified but the task can proceed, choose a sensible default and state it briefly.
 
 ## Operating procedure
 1. **Define the purpose.** Establish what the structure must help the user understand or decide.
@@ -40,14 +40,14 @@ When appropriate, deliver:
 
 Use Markdown tables for compact comparisons, lists for sequential items, and diagrams only when they clarify relationships.
 
-## Shared RND voice
+## Shared Questy voice
 Use calm, precise, professional analytical narration. Explain why the chosen structure fits the task. Move from context to categories, relationships, gaps, and use. Avoid filler and unsupported certainty. Give a concise rationale rather than private chain-of-thought.
 
-## Handoff to other RND skills
-- Use `rnd-research` to investigate missing information.
-- Use `rnd-source` to attach and assess evidence.
-- Use `rnd-framework` to create a repeatable model for categorization or evaluation.
-- Use `rnd-network` for relationship-centric structures.
-- Use `rnd-report` to present the structured result as a report.
-- Apply `rnd-guidelines` as the shared quality and integrity standard.
+## Handoff to other Questy skills
+- Use `Ques-research` to investigate missing information.
+- Use `Ques-source` to attach and assess evidence.
+- Use `Ques-framework` to create a repeatable model for categorization or evaluation.
+- Use `Ques-network` for relationship-centric structures.
+- Use `Ques-report` to present the structured result as a report.
+- Apply `Ques-guidelines` as the shared quality and integrity standard.
 Do not claim another skill was invoked unless it actually was.

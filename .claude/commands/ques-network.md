@@ -1,15 +1,15 @@
 ---
-name: rnd-network
-description: Research and map ecosystems, stakeholders, organizations, technologies, dependencies, influence, collaboration, and information flows. Invoke with /RND-network.
+name: ques-network
+description: Research and map ecosystems, stakeholders, organizations, technologies, dependencies, influence, collaboration, and information flows. Invoke with /Ques-network.
 ---
 
-# RND-Network
+# Ques-Network
 
 ## Mission
 Explain how entities are connected, how information or resources move between them, and which relationships matter to the user's research question.
 
 ## Invocation and instruction priority
-When invoked through `/RND-network`, follow the requested network scope, geography, timeframe, entity types, and output format. Respect higher-priority system, platform, safety, privacy, and tool-use rules. Use public, appropriate information; do not expose private personal data or infer sensitive personal attributes.
+When invoked through `/Ques-network`, follow the requested network scope, geography, timeframe, entity types, and output format. Respect higher-priority system, platform, safety, privacy, and tool-use rules. Use public, appropriate information; do not expose private personal data or infer sensitive personal attributes.
 
 ## Operating procedure
 1. **Define the network boundary.** Establish the research question, time period, geography, and what counts as an entity or relationship.
@@ -39,8 +39,8 @@ When invoked through `/RND-network`, follow the requested network scope, geograp
 6. Strategic implications
 7. Confidence, limitations, and sources
 
-## Shared RND voice
+## Shared Questy voice
 Use neutral, systems-oriented analysis. Describe what the documented connections establish and avoid dramatic interpretations. Move from boundary to nodes, edges, patterns, and implications.
 
-## Handoff to other RND skills
-Use `rnd-research` to discover entities and relationships, `rnd-source` to validate edges, `rnd-struct` to normalize the network data, `rnd-framework` to assess dependency or ecosystem health, and `rnd-report` to communicate findings. Apply `rnd-guidelines` throughout. Do not claim another skill was invoked unless it actually was.
+## Handoff to other Questy skills
+Use `Ques-research` to discover entities and relationships, `Ques-source` to validate edges, `Ques-struct` to normalize the network data, `Ques-framework` to assess dependency or ecosystem health, and `Ques-report` to communicate findings. Apply `Ques-guidelines` throughout. Do not claim another skill was invoked unless it actually was.

@@ -87,21 +87,21 @@ Whenever Questy is installed in your project, simply type **`/`** in your AI cha
 
 | Command | Module | Function | Trigger Use Case |
 | :--- | :--- | :--- | :--- |
-| **`/rnd-research`** | `rnd-research` | **Deep Multi-Angle Investigation** | Systematic hypothesis testing, real-time web investigation, and empirical evidence gathering. |
-| **`/rnd-struct`** | `rnd-struct` | **Structural Modeling & Schemas** | Organizing unstructured data into taxonomies, comparison matrices, schemas, and trade-off trees. |
-| **`/rnd-source`** | `rnd-source` | **Source Audit & Bias Detection** | Auditing provenance, verifying citations against primary source documents, and scoring evidentiary weight. |
-| **`/rnd-report`** | `rnd-report` | **Executive Decision-Ready Synthesis** | Transforming complex findings into boardroom-ready briefs, executive summaries, and action plans. |
-| **`/rnd-network`** | `rnd-network` | **Entity & Dependency Mapping** | Graphing multi-stakeholder ecosystems, technical dependencies, supply networks, and influence maps. |
-| **`/rnd-framework`** | `rnd-framework` | **Evaluation & Rubric Engine** | Designing repeatable scoring models, benchmarking frameworks, and testing procedures. |
-| **`/rnd-guidelines`** | `rnd-guidelines` | **Analytical Rigor & Epistemic Standards** | Enforcing zero-bias isolation, source transparency, and uncertainty disclosure across all turns. |
+| **`/ques-research`** | `ques-research` | **Deep Multi-Angle Investigation** | Systematic hypothesis testing, real-time web investigation, and empirical evidence gathering. |
+| **`/ques-struct`** | `ques-struct` | **Structural Modeling & Schemas** | Organizing unstructured data into taxonomies, comparison matrices, schemas, and trade-off trees. |
+| **`/ques-source`** | `ques-source` | **Source Audit & Bias Detection** | Auditing provenance, verifying citations against primary source documents, and scoring evidentiary weight. |
+| **`/ques-report`** | `ques-report` | **Executive Decision-Ready Synthesis** | Transforming complex findings into boardroom-ready briefs, executive summaries, and action plans. |
+| **`/ques-network`** | `ques-network` | **Entity & Dependency Mapping** | Graphing multi-stakeholder ecosystems, technical dependencies, supply networks, and influence maps. |
+| **`/ques-framework`** | `ques-framework` | **Evaluation & Rubric Engine** | Designing repeatable scoring models, benchmarking frameworks, and testing procedures. |
+| **`/ques-guidelines`** | `ques-guidelines` | **Analytical Rigor & Epistemic Standards** | Enforcing zero-bias isolation, source transparency, and uncertainty disclosure across all turns. |
 
 ### Core Developer Triad
 
 For everyday developers and open-source builders, Questy centers around three high-impact flagship workflows:
 
-* **`/rnd-research` (Inquiry & Verification)**: Conducts exhaustive, fact-checked investigations using current documentation and primary sources. Eliminates hallucinations when picking libraries, diagnosing complex root causes, or evaluating cutting-edge tools.
-* **`/rnd-framework` (Methodology & Scoring Rubric)**: Designs repeatable evaluation rubrics, multi-criteria scorecards, and objective benchmarking procedures to compare architectures without vendor bias.
-* **`/rnd-report` (Decision-Ready Executive Brief)**: Synthesizes multi-day research explorations into structured RFC memos, PR summaries, and boardroom briefs with quantified trade-offs and clear action items.
+* **`/ques-research` (Inquiry & Verification)**: Conducts exhaustive, fact-checked investigations using current documentation and primary sources. Eliminates hallucinations when picking libraries, diagnosing complex root causes, or evaluating cutting-edge tools.
+* **`/ques-framework` (Methodology & Scoring Rubric)**: Designs repeatable evaluation rubrics, multi-criteria scorecards, and objective benchmarking procedures to compare architectures without vendor bias.
+* **`/ques-report` (Decision-Ready Executive Brief)**: Synthesizes multi-day research explorations into structured RFC memos, PR summaries, and boardroom briefs with quantified trade-offs and clear action items.
 
 ---
 
@@ -109,7 +109,7 @@ For everyday developers and open-source builders, Questy centers around three hi
 
 ```bash
 # In your Google Antigravity or Claude Code chat:
-> /rnd-research What are the primary thermal and latency bottlenecks of silicon photonics in edge AI clusters?
+> /ques-research What are the primary thermal and latency bottlenecks of silicon photonics in edge AI clusters?
 
 [Questy R&D Engine Activated: Mode = Zero-Bias Investigation]
 1. Framing Hypothesis & Context Horizon...
@@ -139,13 +139,13 @@ Type **`/`** in the chat box to see all 7 commands auto-complete instantly.
 claude
 
 # Inside Claude Code CLI:
-> /rnd-research "Evaluate zero-knowledge proof throughput on WASM runtimes"
+> /ques-research "Evaluate zero-knowledge proof throughput on WASM runtimes"
 ```
 
 ---
 
 ### 3. GitHub Copilot & Cursor
-* **GitHub Copilot**: Pre-configured via `.github/copilot-instructions.md`. Simply ask Copilot Chat to *"Apply /rnd-research"* or *"Execute /rnd-report"*.
+* **GitHub Copilot**: Pre-configured via `.github/copilot-instructions.md`. Simply ask Copilot Chat to *"Apply /ques-research"* or *"Execute /ques-report"*.
 * **Cursor / OpenAI Codex**: Pre-configured via `.cursorrules` in repository root.
 
 ---
@@ -164,14 +164,14 @@ claude
 flowchart TD
     User([User Prompt / Slash Command]) --> Router{Questy Command Router}
     
-    Router -->|/rnd-research| M1[1. Hypothesis & Investigation Engine]
-    Router -->|/rnd-source| M2[2. Primary Source & Bias Auditor]
-    Router -->|/rnd-struct| M3[3. Schema & Matrix Modeler]
-    Router -->|/rnd-network| M4[4. Entity & Dependency Mapper]
-    Router -->|/rnd-framework| M5[5. Rubric & Evaluation Designer]
-    Router -->|/rnd-report| M6[6. Decision-Ready Executive Synthesis]
+    Router -->|/ques-research| M1[1. Hypothesis & Investigation Engine]
+    Router -->|/ques-source| M2[2. Primary Source & Bias Auditor]
+    Router -->|/ques-struct| M3[3. Schema & Matrix Modeler]
+    Router -->|/ques-network| M4[4. Entity & Dependency Mapper]
+    Router -->|/ques-framework| M5[5. Rubric & Evaluation Designer]
+    Router -->|/ques-report| M6[6. Decision-Ready Executive Synthesis]
     
-    M1 & M2 & M3 & M4 & M5 & M6 --> CoreRules[Questy Epistemic Standards /rnd-guidelines]
+    M1 & M2 & M3 & M4 & M5 & M6 --> CoreRules[Questy Epistemic Standards /ques-guidelines]
     
     CoreRules --> Output([Verified, High-Signal Technical Deliverable])
 ```
@@ -187,13 +187,13 @@ Questy_/
 │   │   ├── plugin.json
 │   │   └── rules/AGENTS.md
 │   └── skills/                  # Antigravity 7 native skills
-│       ├── rnd-framework/
-│       ├── rnd-guidelines/
-│       ├── rnd-network/
-│       ├── rnd-report/
-│       ├── rnd-research/
-│       ├── rnd-source/
-│       └── rnd-struct/
+│       ├── ques-framework/
+│       ├── ques-guidelines/
+│       ├── ques-network/
+│       ├── ques-report/
+│       ├── ques-research/
+│       ├── ques-source/
+│       └── ques-struct/
 ├── .claude/
 │   └── commands/                # Claude Code CLI slash commands
 ├── .github/

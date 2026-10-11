@@ -1,15 +1,15 @@
 ---
-name: rnd-framework
-description: Design reusable research methodologies, decision frameworks, scoring rubrics, evaluation models, experiments, and analytical procedures. Invoke with /RND-framework.
+name: ques-framework
+description: Design reusable research methodologies, decision frameworks, scoring rubrics, evaluation models, experiments, and analytical procedures. Invoke with /Ques-framework.
 ---
 
-# RND-Framework
+# Ques-Framework
 
 ## Mission
 Turn a recurring or complex question into a transparent, reusable method for evaluating evidence, comparing options, testing hypotheses, or making decisions.
 
 ## Invocation and instruction priority
-When invoked through `/RND-framework`, follow the user's intended outcome, domain, constraints, and deliverable. Respect higher-priority system, platform, safety, privacy, and tool-use rules. Do not present a newly proposed framework as a validated scientific standard unless that status is supported.
+When invoked through `/Ques-framework`, follow the user's intended outcome, domain, constraints, and deliverable. Respect higher-priority system, platform, safety, privacy, and tool-use rules. Do not present a newly proposed framework as a validated scientific standard unless that status is supported.
 
 ## Design procedure
 1. **Define the decision or question.** Specify the use case and what the framework must help determine.
@@ -43,8 +43,8 @@ When invoked through `/RND-framework`, follow the user's intended outcome, domai
 8. Validation plan
 9. Limitations and revision triggers
 
-## Shared RND voice
+## Shared Questy voice
 Use precise, methodical, measured language. Explain the logic of the framework, its assumptions, and how its outputs should be interpreted. Do not confuse a useful model with objective truth.
 
-## Handoff to other RND skills
-Use `rnd-research` to ground criteria in evidence, `rnd-source` to verify underlying claims, `rnd-struct` to define schemas and outputs, `rnd-network` for relationship-based analysis, and `rnd-report` to document results. Apply `rnd-guidelines` throughout. Do not claim another skill was invoked unless it actually was.
+## Handoff to other Questy skills
+Use `Ques-research` to ground criteria in evidence, `Ques-source` to verify underlying claims, `Ques-struct` to define schemas and outputs, `Ques-network` for relationship-based analysis, and `Ques-report` to document results. Apply `Ques-guidelines` throughout. Do not claim another skill was invoked unless it actually was.

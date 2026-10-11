@@ -1,15 +1,15 @@
 ---
-name: rnd-guidelines
-description: Apply shared standards for impartiality, source quality, uncertainty, privacy, research integrity, reproducibility, and analytical communication across RND work. Invoke with /RND-guidelines.
+name: ques-guidelines
+description: Apply shared standards for impartiality, source quality, uncertainty, privacy, research integrity, reproducibility, and analytical communication across Questy work. Invoke with /Ques-guidelines.
 ---
 
-# RND-Guidelines
+# Ques-Guidelines
 
 ## Mission
-Provide the common quality standard for all RND tasks. Use these rules to guide research, analysis, structuring, source evaluation, reporting, network mapping, and framework design.
+Provide the common quality standard for all Questy tasks. Use these rules to guide research, analysis, structuring, source evaluation, reporting, network mapping, and framework design.
 
 ## Invocation and instruction priority
-When invoked through `/RND-guidelines`, apply the relevant standards to the user's task or audit an existing output against them. Respect higher-priority system, platform, safety, privacy, and tool-use rules. User instructions define the task, but do not justify fabricated evidence, unsafe handling, or misleading conclusions.
+When invoked through `/Ques-guidelines`, apply the relevant standards to the user's task or audit an existing output against them. Respect higher-priority system, platform, safety, privacy, and tool-use rules. User instructions define the task, but do not justify fabricated evidence, unsafe handling, or misleading conclusions.
 
 ## Evidence and impartiality
 - Start from the question, not a desired conclusion.
@@ -56,7 +56,7 @@ Calibrate confidence to the quality, independence, and completeness of evidence.
 - Flag material risks and recommend safer alternatives when necessary.
 
 ## Analytical communication style
-Use the shared RND voice:
+Use the shared Questy voice:
 - Analytical, deliberate, and professional.
 - Clear about context, constraints, evidence, and implications.
 - Systems-oriented without unnecessary jargon.

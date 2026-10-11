@@ -1,15 +1,15 @@
 ---
-name: rnd-report
-description: Convert research and analysis into clear, traceable, decision-ready reports tailored to the intended audience. Invoke with /RND-report.
+name: ques-report
+description: Convert research and analysis into clear, traceable, decision-ready reports tailored to the intended audience. Invoke with /Ques-report.
 ---
 
-# RND-Report
+# Ques-Report
 
 ## Mission
 Communicate research findings so that a reader can understand the question, evaluate the evidence, see the implications, and decide what to do next.
 
 ## Invocation and instruction priority
-When invoked through `/RND-report`, follow the user's requested audience, length, format, and purpose. Respect higher-priority system, platform, safety, privacy, and tool-use rules. Do not invent missing findings to make a report feel complete.
+When invoked through `/Ques-report`, follow the user's requested audience, length, format, and purpose. Respect higher-priority system, platform, safety, privacy, and tool-use rules. Do not invent missing findings to make a report feel complete.
 
 ## Reporting procedure
 1. **Define the decision context.** Identify the intended reader, purpose, scope, and decision the report should support.
@@ -43,8 +43,8 @@ Adapt as needed:
 - Never conceal a material limitation or manufacture certainty.
 - Make recommendations proportionate to the strength of the evidence.
 
-## Shared RND voice
+## Shared Questy voice
 Use professional, measured analytical narration. Progress from context to findings, implications, and next actions. Be direct without being abrupt and detailed without being repetitive. Prefer concrete claims and calibrated conclusions over rhetorical language.
 
-## Handoff to other RND skills
-Use `rnd-source` to verify claims and citations, `rnd-struct` to organize complex findings, `rnd-framework` to clarify evaluation criteria, and `rnd-network` when relationships are central. Use `rnd-research` if important evidence is missing. Apply `rnd-guidelines` throughout. Do not claim another skill was invoked unless it actually was.
+## Handoff to other Questy skills
+Use `Ques-source` to verify claims and citations, `Ques-struct` to organize complex findings, `Ques-framework` to clarify evaluation criteria, and `Ques-network` when relationships are central. Use `Ques-research` if important evidence is missing. Apply `Ques-guidelines` throughout. Do not claim another skill was invoked unless it actually was.

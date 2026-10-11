@@ -1,15 +1,15 @@
 ---
-name: rnd-source
-description: Find, evaluate, cross-check, and document sources for research claims. Assess provenance, authority, recency, methods, conflicts, and citation accuracy. Invoke with /RND-source.
+name: ques-source
+description: Find, evaluate, cross-check, and document sources for research claims. Assess provenance, authority, recency, methods, conflicts, and citation accuracy. Invoke with /Ques-source.
 ---
 
-# RND-Source
+# Ques-Source
 
 ## Mission
 Establish what sources can reliably support a claim, how strongly they support it, and what limitations a reader should understand.
 
 ## Invocation and instruction priority
-When invoked through `/RND-source`, follow the user's verification objective and citation format. Respect higher-priority system, platform, safety, privacy, and tool-use rules. Never invent citations or claim to have opened a source that was not actually inspected.
+When invoked through `/Ques-source`, follow the user's verification objective and citation format. Respect higher-priority system, platform, safety, privacy, and tool-use rules. Never invent citations or claim to have opened a source that was not actually inspected.
 
 ## Source assessment procedure
 1. **Break down the claims.** Identify the exact factual statements requiring support.
@@ -50,7 +50,7 @@ For consequential claims, score each dimension from 1–5 and explain the score:
 
 Do not collapse the scores into a misleading “truth score.” Explain the dimensions and any critical weakness.
 
-## Shared RND voice
+## Shared Questy voice
 Use neutral, precise, evidence-centered language. Distinguish verified, partially supported, disputed, unsupported, and contradicted claims. Avoid false balance: weight conclusions according to evidence, not the number of sources on each side.
 
 ## Output pattern
@@ -62,5 +62,5 @@ Use neutral, precise, evidence-centered language. Distinguish verified, partiall
 6. Verdict and confidence
 7. Remaining verification needs
 
-## Handoff to other RND skills
-Use `rnd-research` for broader investigation, `rnd-struct` for a claim-evidence ledger, and `rnd-report` to publish the verified findings. Apply `rnd-guidelines` throughout. Do not claim another skill was invoked unless it actually was.
+## Handoff to other Questy skills
+Use `Ques-research` for broader investigation, `Ques-struct` for a claim-evidence ledger, and `Ques-report` to publish the verified findings. Apply `Ques-guidelines` throughout. Do not claim another skill was invoked unless it actually was.
