@@ -95,6 +95,14 @@ Whenever Questy is installed in your project, simply type **`/`** in your AI cha
 | **`/rnd-framework`** | `rnd-framework` | **Evaluation & Rubric Engine** | Designing repeatable scoring models, benchmarking frameworks, and testing procedures. |
 | **`/rnd-guidelines`** | `rnd-guidelines` | **Analytical Rigor & Epistemic Standards** | Enforcing zero-bias isolation, source transparency, and uncertainty disclosure across all turns. |
 
+### Core Developer Triad
+
+For everyday developers and open-source builders, Questy centers around three high-impact flagship workflows:
+
+* **`/rnd-research` (Inquiry & Verification)**: Conducts exhaustive, fact-checked investigations using current documentation and primary sources. Eliminates hallucinations when picking libraries, diagnosing complex root causes, or evaluating cutting-edge tools.
+* **`/rnd-framework` (Methodology & Scoring Rubric)**: Designs repeatable evaluation rubrics, multi-criteria scorecards, and objective benchmarking procedures to compare architectures without vendor bias.
+* **`/rnd-report` (Decision-Ready Executive Brief)**: Synthesizes multi-day research explorations into structured RFC memos, PR summaries, and boardroom briefs with quantified trade-offs and clear action items.
+
 ---
 
 ## Live Agent Experience
@@ -117,8 +125,8 @@ Whenever Questy is installed in your project, simply type **`/`** in your AI cha
 
 ### 1. Google Antigravity (Preferred)
 ```bash
-git clone https://github.com/parthongit89/Questy_.git
-cd Questy_
+git clone https://github.com/Team-Antimatr/Questy.git
+cd Questy
 ```
 Open the folder in **Google Antigravity**. Antigravity automatically detects `.agents/skills/` and the `.agents/plugins/questy/` plugin.
 Type **`/`** in the chat box to see all 7 commands auto-complete instantly.
@@ -219,7 +227,7 @@ Every inquiry conducted through Questy follows non-negotiable evidentiary tenets
 ## Contributing
 
 Contributions to expand Questy skills, add new agent sidecars, or refine evaluation frameworks are welcome:
-1. Fork the Project: `https://github.com/parthongit89/Questy_.git`
+1. Fork the Project: `https://github.com/Team-Antimatr/Questy.git`
 2. Create your Feature Branch (`git checkout -b feature/NewSkill`)
 3. Commit your Changes (`git commit -m 'feat: Add new R&D skill'`)
 4. Push to the Branch (`git push origin feature/NewSkill`)

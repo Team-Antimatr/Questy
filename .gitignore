@@ -1,0 +1,15 @@
+# Environment and local secrets
+.env
+*.env.local
+
+# Operating System Files
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# Internal confidential drafts & venture planning
+Startup-upcoming--plans/
+
+# IDE / Temporary files
+*.tmp
+*.bak
