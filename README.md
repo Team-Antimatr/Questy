@@ -1,7 +1,9 @@
 <div align="center">
 
-  <img src="assets/questy-logo.png" alt="Questy Logo" width="120" style="margin-bottom: 12px;" /><br/>
-  <img src="assets/questy-text.svg" alt="QUESTY" width="280" style="margin-bottom: 6px;" />
+  <img src="assets/questy-logo.png" alt="Questy Logo" width="115" />
+  <br/><br/>
+  <img src="assets/questy-text.svg" alt="QUESTY" width="270" />
+  <br/>
   
   <h3>The Autonomous R&D and Strategic Intelligence Engine for AI Agents</h3>
 
