@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Questy - Elite R&D Intelligence for AI Developer Agents</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Google+Sans+Flex:wght@300;400;500;600;700&family=Prompt:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Background Glow from Figma Design -->
+  <div class="bg-glow-container">
+    <img src="assets/bg-glow.svg" alt="" class="bg-glow-image">
+  </div>
+
+  <div class="site-wrapper">
+    <!-- Navigation Bar -->
+    <header class="navbar">
+      <div class="nav-brand">
+        <a href="#home" class="brand-text">Questy</a>
+      </div>
+      <nav class="nav-links">
+        <a href="#home" class="nav-link active">Home</a>
+        <a href="#about" class="nav-link">About</a>
+        <a href="#plugins" class="nav-link">Plugins</a>
+      </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <main>
+      <section id="home" class="hero-section">
+        <h1 class="hero-title">Meet Questy</h1>
+        <p class="hero-subtitle">Elite R&amp;D Intelligence for AI Developer Agents</p>
+      </section>
+
+      <!-- CTA Section -->
+      <section class="cta-section">
+        <h2 class="cta-heading">Ready to accelerate your AI workflows?</h2>
+        <p class="cta-subheading">
+          Start with Questy and get structured intelligence for every developer agent in your stack.
+        </p>
+        <div class="cta-buttons">
+          <a href="#get-started" class="btn btn-primary">Get Started</a>
+          <a href="#demo" class="btn btn-secondary">Book a Demo</a>
+        </div>
+      </section>
+
+      <!-- About Section -->
+      <section id="about" class="about-section">
+        <h2 class="about-heading">About Questy</h2>
+        <p class="about-description">
+          Questy transforms your coding assistant into a rigorous research partner by embedding institutional-grade R&amp;D protocols directly into its reasoning loop, eliminating hallucinations and ensuring total evidentiary rigor.
+        </p>
+      </section>
+
+      <!-- Core Pillars Section -->
+      <section id="pillars" class="pillars-section">
+        <h2 class="pillars-heading">Core Pillars</h2>
+
+        <!-- Orbital Constellation Layout from Figma -->
+        <div class="pillars-constellation">
+          
+          <!-- Pillar 1: Unbiased Thinking (Top Left) -->
+          <div class="pillar-card pillar-unbiased">
+            <span class="pillar-label">Unbiased Thinking</span>
+            <div class="pillar-circle-wrap circle-unbiased-wrap">
+              <img src="assets/circle-unbiased.svg" alt="" class="pillar-ring">
+              <div class="pillar-icon-box icon-unbiased-box">
+                <img src="assets/icon-unbiased.svg" alt="Unbiased Thinking" class="pillar-icon">
+              </div>
+            </div>
+          </div>
+
+          <!-- Pillar 2: Step-by-Step System (Top Right) -->
+          <div class="pillar-card pillar-stepbystep">
+            <span class="pillar-label">Step-by-Step System</span>
+            <div class="pillar-circle-wrap circle-stepbystep-wrap">
+              <img src="assets/circle-stepbystep.svg" alt="" class="pillar-ring">
+              <div class="pillar-icon-box icon-stepbystep-box">
+                <img src="assets/icon-stepbystep.svg" alt="Step-by-Step System" class="pillar-icon">
+              </div>
+            </div>
+          </div>
+
+          <!-- Pillar 3: Real Proofs (Bottom Center) -->
+          <div class="pillar-card pillar-realproofs">
+            <div class="pillar-circle-wrap circle-realproofs-wrap">
+              <img src="assets/circle-realproofs.svg" alt="" class="pillar-ring">
+              <div class="pillar-icon-box icon-realproofs-box">
+                <img src="assets/icon-realproofs.svg" alt="Real Proofs" class="pillar-icon">
+              </div>
+            </div>
+            <span class="pillar-label">Real Proofs</span>
+          </div>
+
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="footer-divider"></div>
+      
+      <div class="footer-content">
+        <div class="footer-brand">
+          <span class="footer-logo">Questy</span>
+          <p class="footer-tagline">
+            Developer intelligence for AI teams that need structured research, clear evidence, and faster decision-making.
+          </p>
+        </div>
+
+        <div class="footer-links-group">
+          <div class="footer-col">
+            <h4 class="footer-col-title">Product</h4>
+            <a href="#overview" class="footer-link">Overview</a>
+            <a href="#pillars" class="footer-link">Core Pillars</a>
+            <a href="#plugins" class="footer-link">Plugins</a>
+          </div>
+
+          <div class="footer-col">
+            <h4 class="footer-col-title">Company</h4>
+            <a href="#about" class="footer-link">About</a>
+            <a href="#contact" class="footer-link">Contact</a>
+            <a href="#legal" class="footer-link">Legal</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <span class="footer-copyright">&copy; 2026 Questy. All rights reserved.</span>
+        <div class="footer-legal-links">
+          <a href="#privacy">Privacy Policy</a> &middot; <a href="#terms">Terms of Service</a>
+        </div>
+      </div>
+    </footer>
+  </div>
+
+  <script>
+    // Smooth navigation interaction
+    document.querySelectorAll('.nav-link').forEach(link => {
+      link.addEventListener('click', function(e) {
+        document.querySelectorAll('.nav-link').forEach(l => l.classList.remove('active'));
+        this.classList.add('active');
+      });
+    });
+  </script>
+</body>
+</html>
