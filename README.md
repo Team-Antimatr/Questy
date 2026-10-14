@@ -26,7 +26,8 @@
     <a href="#the-7-universal-slash-commands">7 Slash Commands</a> &bull;
     <a href="#quickstart">Quickstart</a> &bull;
     <a href="#system-architecture">Architecture</a> &bull;
-    <a href="#enterprise-rigor-and-integrity">Enterprise Rigor</a>
+    <a href="#enterprise-rigor-and-integrity">Enterprise Rigor</a> &bull;
+    <a href="#-legal--trademarks-disclaimer">Legal</a>
   </p>
 
 </div>
@@ -233,6 +234,16 @@ Contributions to expand Questy skills, add new agent sidecars, or refine evaluat
 3. Commit your Changes (`git commit -m 'feat: Add new R&D skill'`)
 4. Push to the Branch (`git push origin feature/NewSkill`)
 5. Open a Pull Request
+
+---
+
+## ⚖️ Legal & Trademarks Disclaimer
+
+Questy is an independent open-source research and intelligence protocol designed to enhance analytical rigor in AI developer agents.
+
+- **Nominative Fair Use Notice:** All product names, logos, trademarks, and registered trademarks cited in this repository and documentation (including but not limited to *Google Antigravity*, *OpenAI Codex*, *Anthropic Claude*, *GitHub Copilot*, and *Perplexity AI*) remain the exclusive property of their respective trademark holders.
+- **Non-Affiliation & Endorsement:** Their reference is made strictly for descriptive, identification, and software interoperability purposes under established principles of **Nominative Fair Use**. Use of these names, brand marks, and terminology does not imply any affiliation, sponsorship, official partnership, or endorsement by the respective trademark owners.
+- **Rigor & Verification Notice:** Questy enforces evidentiary rules, rubric structures, and citation audits. However, users remain solely responsible for validating domain-specific deliverables, code implementations, and adherence to their organization's internal safety and compliance policies.
 
 ---
 
